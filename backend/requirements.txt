@@ -1,0 +1,17 @@
+# FastAPI stack
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+pydantic-settings>=2.6.0
+python-dotenv>=1.0.0
+
+# Database (EstateScout CRM)
+pymongo>=4.10.0
+certifi>=2024.8.30
+
+# Agent (Groq + LangGraph)
+langchain-core>=0.3.45
+langchain-groq>=0.2.4
+langgraph>=0.2.76
+
+# Browser automation (map simulator)
+playwright>=1.49.0
